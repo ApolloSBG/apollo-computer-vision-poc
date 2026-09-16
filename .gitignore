@@ -1,0 +1,35 @@
+# Raw match footage
+data/raw/
+
+# Extracted video frames
+data/frames/
+
+# Trained models / weights
+models/
+
+# Generated outputs
+outputs/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# YOLO pretrained/trained weights
+*.pt
+
+# YOLO training runs
+runs/
+
+# VS Code local settings
+.vscode/
+
+# CVAT annotation exports / local datasets
+data/annotations/
+data/CVAT batch/
